@@ -1,0 +1,78 @@
+body{
+
+	  background: url('main_background.jpg') no-repeat center center fixed;
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+	  margin: 0 auto;
+	  font-size: 30px;
+	  font-family:Arial;
+	  color: white;
+}
+
+.main_logo a{
+	display: block;
+	text-align: center;
+}
+
+/*.btn {
+  background-color: #f4511e;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+}
+
+.btn:hover {opacity: 1}*/
+
+a{
+	text-decoration: none;
+	color: yellow;
+}
+
+button{
+	text-align: center;
+}
+
+button a:hover{
+	color: red;
+	font-weight: bold;
+}
+
+button a{
+	color: yellow;
+	text-decoration: none;
+	text-align: center;
+}
+
+.centrer button{
+	margin-top: 20px;
+}
+
+
+.main_logo{
+
+	width: 400px;
+	height: 150px;
+}
+
+/*.main_logo a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 50px;
+    color: #FFDAB9;
+}*/
+
+.main_logo{
+  position: fixed; /* or absolute */
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}

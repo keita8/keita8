@@ -1,0 +1,96 @@
+*{
+	margin:0;
+	padding: 0;
+}
+
+body{
+
+	 background: url('menu_background.jpg') no-repeat center center fixed;
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+	  margin: 0 auto;
+	  font-size: 30px;
+	  font-family:Arial;
+	  color: white;
+}
+
+
+.row p{
+	text-transform: uppercase;
+	color:white;
+	margin: 10px 15px 10px 0px;
+	background-color: #DD7538;
+	padding: 15px 20px;
+	font-size: 25px;
+	border-radius: 10px;
+	text-align: center;
+	display: inline-flex;
+}
+
+.les_pizzas{
+	background-color: blue;
+	display: flex;
+	margin-left: 0px;
+}
+
+div.container{
+	color: white;
+}
+
+/*span.prix{
+	background-color: #DD7835;
+	text-align: right;
+}
+
+.row span{
+	text-align: right;
+}
+*/
+.small_logo{
+	margin-top: 25px;
+	margin-left: 0px;
+	display: inline-block;
+}
+
+.text-left{
+	text-align: left;
+	margin-left: 0px;
+}
+
+/*div.row{
+	display: block;
+	text-align: center;
+	background-color: green;
+}
+
+*/
+
+/*.menu_list_ingredient{
+font-size: 15px;
+display: block;
+margin-top: 8px;
+color:#c8c8c8;
+width: 320px;
+color: #c7c8c9;
+}
+
+.vegetarienne{
+    background-color: #DD7835;
+    font-size: 10px;
+    padding: 3px 8px;
+    margin-top: 5px;
+    display:inline-block;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.menu_list_price{
+    color: #DD7835;
+    font-size: 20px;
+    margin-left:15px;
+    width: 170px;
+    display: inline-block;
+    text-align: right;
+}*/
